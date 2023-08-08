@@ -1,0 +1,26 @@
+@startuml catpsw
+left to right direction
+skinparam packageStyle rectangle
+
+actor Usuário as User
+rectangle "Gerenciador de Senhas" {
+  usecase "Registro de Usuário" as UC001
+  usecase "Login de Usuário" as UC002
+  usecase "Adicionar Senha" as UC003
+  usecase "Visualizar Senhas" as UC004
+  usecase "Editar Senha" as UC005
+  usecase "Excluir Senha" as UC006
+  usecase "Gerar Senha" as UC007
+  usecase "Importar Senhas" as UC008
+
+  User --> UC001
+  User --> UC002
+  User --> UC003
+  User --> UC004
+  User --> UC005
+  User --> UC006
+  User --> UC007
+  User --> UC008
+}
+
+@enduml
