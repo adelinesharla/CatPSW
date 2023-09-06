@@ -1,4 +1,4 @@
-# Nome do Projeto
+# CatPSW
 
 Descrição breve do projeto.
 
