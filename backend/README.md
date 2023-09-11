@@ -1,6 +1,6 @@
 # CatPSW
 
-Descrição breve do projeto.
+CatPSW é um gerenciador de senhas construído em Python, utilizando o microframework Flask e PostgreSQL como banco de dados. O projeto também inclui um plugin para Firefox que consome a API, tornando mais prático e seguro o gerenciamento de suas credenciais. A arquitetura do projeto é dividida em camadas, incluindo modelos, controladores, middlewares e serviços, para garantir um desenvolvimento e manutenção eficientes.
 
 ## Pré-requisitos
 
@@ -23,10 +23,6 @@ Descrição breve do projeto.
 
 1. Execute o comando python main.py ou pymon main.py
 2. Acesse a aplicação em http://localhost:5000
-
-## Rotas da API Backend
-
-Aqui você pode adicionar as rotas da API backend que serão consumidas pelo frontend.
 
 ## Documentação
 
